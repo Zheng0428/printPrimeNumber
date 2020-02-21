@@ -24,7 +24,7 @@ int checkPrimeNumber(int n)
 }
 int main()
 {
-    int totalNum = 10000;
+    int totalNum = 1000;
     for (int i = 1; i < totalNum/2; i++)
     {
         int res = checkPrimeNumber(2*i+1);
